@@ -1,11 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
-/*
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -72,4 +67,72 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* Basic */
+/* main */
+html {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19pt;
+    font-weight: 300;
+    line-height: 1.75em;
+    
+}
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1400px;
+}
+#main {
+	margin-left: 375px;
+}
+@media screen and (min-width: 961px) and (max-width: 1880px) {
+	body, input, textarea, select {
+		font-size: 17pt;
+	}
+}
+@media screen and (min-width: 961px) and (max-width: 1320px) {
+	body, input, textarea, select {
+		font-size: 16pt;
+	}
+
+	.container {
+		padding: 0 2em 0 2em;
+	}
+}
+@media screen and (max-width: 960px) {
+	html, body {
+		overflow-x: hidden;
+	}
+
+	body, input, textarea, select {
+		font-size: 16pt;
+	}
+
+	header br {
+		display: none;
+	}
+
+	.container {
+		padding: 0 2em 0 2em;
+	}
+}
+@media screen and (max-width: 736px) {
+	body, input, textarea, select {
+		font-size: 14pt;
+	}
+
+	h2 {
+		font-size: 1.5em;
+		letter-spacing: 0;
+		font-weight: 300;
+	}
+
+	.container {
+		padding: 0 15px 0 15px;
+	}
+
+}
+*{
+	font-family: 'Comic Neue', cursive;
+}
